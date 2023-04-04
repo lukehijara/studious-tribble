@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10%;
+    
+}
+body{
+    font-family: Times,Serif;
+    color: white;
+    background-image: url(../images/backtribute.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    padding: 2rem;
+    margin: 1rem 0px;
+    text-align: center;
+}
+.header > .title{
+    margin-bottom: 1rem;
+    font-weight: 200%;
+    font-size: 300%;
+}
+.header >.description{
+    font-weight: 200%;
+    font-size: 200%;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size:  3rem
+}
+
+.tribute{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background: gray;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0%;
+    padding: 10px;
+
+}
+.tribute img{
+    max-width: 100%;
+    position: cover;
+    right: 10%;
+    padding: 20px;
+}
+
+.tribute img {
+    transition: 1s ease;
+}
+    
+.tribute img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
+/*back*/
+
+.back ul{
+	list-style: none;
+}
+.back ul li{
+	position: absolute;
+	font-size: 1.7rem;
+	top: 3%;
+	left: 2%;
+	font-weight: bold;
+	
+}
+.back ul li a{
+	list-style: none;
+	transition: .3s all ease;
+	color: rgb(226, 219, 231);
+}
+.back ul li a:hover{
+	color: rgb(151, 158, 148);
+}
+
+
+.bio{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.bio > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;    
+}
+
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio >hr{
+    margin-top: 2rem;
+}
+
+
+.early{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.early > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;    
+}
+
+.early > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.early >hr{
+    margin-top: 2rem;
+}
+
+.middle{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.middle > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;    
+}
+
+.middle > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.middle >hr{
+    margin-top: 2rem;
+}
+
+.crucifixion{
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.crucifixion > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.2;    
+}
+
+.crucifixion > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.crucifixion >hr{
+    margin-top: 2rem;
+}
+
+.words {
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: large;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+
+
